@@ -1,0 +1,14 @@
+INPUT(
+./debug/Main.o
+./debug/Mainwindow.o
+./debug/Gameboard.o
+./debug/Man.o
+./debug/Const.o
+./debug/Box.o
+./debug/Spirit.o
+./debug/Game.o
+./debug/qrc_Resource.o
+./debug/moc_Gameboard.o
+./debug/moc_Game.o
+./debug/moc_Mainwindow.o
+);

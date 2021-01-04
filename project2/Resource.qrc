@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/level">
+        <file>level/1.txt</file>
+        <file>level/2.txt</file>
+        <file>level/3.txt</file>
+        <file>level/4.txt</file>
+        <file>level/5.txt</file>
+    </qresource>
+    <qresource prefix="/res">
+        <file>res/1.png</file>
+        <file>res/2.png</file>
+        <file>res/3.png</file>
+        <file>res/4.png</file>
+        <file>res/5.png</file>
+        <file>res/21.png</file>
+        <file>res/51.png</file>
+        <file>res/52.png</file>
+        <file>res/53.png</file>
+        <file>res/54.png</file>
+        <file>res/55.png</file>
+        <file>res/56.png</file>
+        <file>res/57.png</file>
+        <file>res/quit.png</file>
+    </qresource>
+    <qresource prefix="/qm">
+        <file>Language.qm</file>
+    </qresource>
+</RCC>

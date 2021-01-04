@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>360</width>
+    <height>383</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>IDS_APP_NAME</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>res/Boxman.ico</normaloff>res/Boxman.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">alternate-background-color: rgb(240, 240, 240);</string>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <widget class="GameBoard" name="centralWidget">
+   <widget class="QLabel" name="steps">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="show">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>341</y>
+      <width>41</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>步數:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitButton">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>190</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Book Antiqua&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>QUIT</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 9pt &quot;Arial Black&quot;;
+font: 87 20pt &quot;Arial Black&quot;;
+font: 87 22pt &quot;Arial Black&quot;;
+font: 87 24pt &quot;Arial Black&quot;;
+font: 87 26pt &quot;Arial Black&quot;;
+font: 87 28pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PLAY</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="show_2">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>10</y>
+      <width>81</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>當前關卡:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="level">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>9</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="previous">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>60</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Book Antiqua&quot;;
+font: 75 7pt &quot;Arial&quot;;
+font: 75 8pt &quot;Agency FB&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>前一關</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="next">
+    <property name="geometry">
+     <rect>
+      <x>82</x>
+      <y>370</y>
+      <width>60</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Book Antiqua&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>下一關</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="restart">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>370</y>
+      <width>78</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Book Antiqua&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>重玩本關</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quit">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>370</y>
+      <width>78</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Book Antiqua&quot;;
+font: 87 12pt &quot;Arial Black&quot;;
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>退出遊戲</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="record">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="show_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>340</y>
+      <width>75</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>最佳紀錄:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>GameBoard</class>
+   <extends>QWidget</extends>
+   <header>Gameboard.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
