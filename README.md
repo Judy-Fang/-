@@ -1,10 +1,9 @@
 # Programming-Course2-Projects
 
-#### Write with C++ and use QT Designer for the interface
+Write Sudoku solver, Sokoban game, Doodle Jump game by C++ and use QT Designer for the interface
 
-##### Projects:
+### Project1 Sudoku Solver
 
-1. **Sudoku**
-2. **Sokoban**
-3. **Doodle Jump**
+### Project2 **Sokoban** Game
 
+### Project3 **Sokoban** Game
