@@ -1,4 +1,4 @@
-# Programming-Course2-Projects
+# Programming-Course2-OOP-Projects
 
 Write Sudoku solver, Sokoban game, Doodle Jump game by C++ and use QT Designer for the interface
 
